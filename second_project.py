@@ -17,7 +17,7 @@ new_name = name.split()
 print(f"Hello {new_name[0]}!\nWelcome at Hunter Company")
 ##print underscore * 50
 print("_"*50)
-#id of user equal 3 first charactars of name company +"_"+ 2 last characters of name user + birthyear  
+#id of user equal 3 first charactars of name company +"_"+ 2 last characters of the last name of user + birthyear  
 employee_id = f"Your id is: {company_name[:3].lower()}-{name[-2:]}{birth_year}"
 print(employee_id)
 #new email equal the first part of user email + domaine name of the company 
