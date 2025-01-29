@@ -19,4 +19,4 @@ else:
     #result 
      print(f"The maximum salary is: {max_salary} $")     
      print(f"The minimum salary is: {min_salary} $")   
-     print(f"The average salary is: {average_salary} $")
+     print(f"The average salary is: {average_salary:.0f} $")
