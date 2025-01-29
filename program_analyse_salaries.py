@@ -12,12 +12,12 @@ else:
      float_salaries = list(map(float,list_salariess))
     #analyse the maximum salary in the list by using max method 
      max_salary = max(float_salaries)
-     print(f"The maximum salary is: {max_salary} $")
     #analyse the minimum salary in the list by using max method 
      min_salary = min(float_salaries)
-     print(f"The minimum salary is: {min_salary} $")
-    #for know the medium salary from the list we should addition all the items on the list together
-    # and division the total on number of items have on the list (salaries)
-     sum_salarys = sum(float_salaries)
+    #for know the average salary should do  total of the salaries / number of salaries 
+     sum_salaries = sum(float_salaries)
      average_salary = sum_salarys/len(float_salaries)
-     print(f"The average salary is: {medium_salary} $")
+    #result 
+     print(f"The maximum salary is: {max_salary} $")     
+     print(f"The minimum salary is: {min_salary} $")   
+     print(f"The average salary is: {average_salary} $")
