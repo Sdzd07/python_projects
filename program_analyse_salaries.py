@@ -16,7 +16,7 @@ else:
      min_salary = min(float_salaries)
     #for know the average salary should do  total of the salaries / number of salaries 
      sum_salaries = sum(float_salaries)
-     average_salary = sum_salarys/len(float_salaries)
+     average_salary = sum_salaries/len(float_salaries)
     #result 
      print(f"The maximum salary is: {max_salary} $")     
      print(f"The minimum salary is: {min_salary} $")   
