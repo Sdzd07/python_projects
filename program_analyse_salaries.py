@@ -1,5 +1,5 @@
 #this script analyse the salary on the list and give the user the Maximum&Minimum and the Average of salary
-#first step ask user for input all the salaries,or we can put early list.
+#first step ask user for input all the salaries.
 salaries = input("Enter more than one salary and separeat between salaries by comma please : ")
 comma = ","
 if  comma not in salaries or salaries == comma:
@@ -7,8 +7,7 @@ if  comma not in salaries or salaries == comma:
 else:
     #change the input form to the list by using split method 
      list_salariess = salaries.split(",")
-    #first should be change the items on the list from string data type to float data types by using map method 
-    # or with while (for loops)
+    #change the items on the list from string data type to float data types by using map method or with (for loops)
      float_salaries = list(map(float,list_salariess))
     #analyse the maximum salary in the list by using max method 
      max_salary = max(float_salaries)
