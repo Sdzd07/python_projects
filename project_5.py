@@ -1,4 +1,4 @@
-#program for calculate the age of user lest start:
+#program for calculate the age of user let's start:
 #first we need to get input from user 
 full_name = input("Enter your full name: ").strip().title()
 birth_date = input("Enter your birth date (dd_mm_yyyy): ")
