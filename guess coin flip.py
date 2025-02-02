@@ -16,4 +16,3 @@ else:
     result = "You lost!"
 print("_"*40)
 print(f"{coin}\n{result}")
-print(choice)
