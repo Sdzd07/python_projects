@@ -9,5 +9,5 @@ print(f"The Roll Dice is {roll_dice}")
 if gusse == roll_dice:
     print("You won!")
 else: 
-    print("You lost")    
+    print("You lost!")    
    
