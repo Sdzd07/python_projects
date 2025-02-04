@@ -1,4 +1,4 @@
-#program for reversed word game
+#program for reversed words game
 #import random module 
 import random
 #import time module
