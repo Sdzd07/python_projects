@@ -3,9 +3,9 @@
 salaries = input("Enter more than one salary and separeat between salaries by comma please : ")
 comma = ","
 if  comma not in salaries or salaries == comma:
-    print("Please enter more than one salary and use comma to separeat between the salaries ")
+    input("Please enter more than one salary and use comma to separeat between the salaries: ")
 else:
-    #change the input form to the list by using split method 
+    #change the input to list by using split method 
      list_salariess = salaries.split(",")
     #change the items on the list from string data type to float data types by using map method or with (for loops)
      float_salaries = list(map(float,list_salariess))
