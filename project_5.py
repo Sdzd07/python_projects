@@ -13,7 +13,7 @@ name_index = full_name.index(" ")
 print("_"*50)
 print(f"Hello, {full_name[0:name_index]}!\nWellcom at Age calculator ")
 #now we need to do operater for give age of user
-# for do that we need to division the birth date of user from current year 
+# for do that we need to subtract the birth year of user from current year 
 #but the problem is how we can silce only the brith year without the date and month 
 #solution is 
 birth_year = int(birth_date[-4:])
