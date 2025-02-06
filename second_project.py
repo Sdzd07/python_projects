@@ -21,7 +21,7 @@ print("_"*50)
 employee_id = f"Your id is: {company_name[:3].lower()}-{name[-2:]}{birth_year}"
 print(employee_id)
 #new email equal the first part of user email + domaine name of the company 
-email.rindex("@")
-new_email = f"Your email is: {email[:5]}{company_domain} "
+index_email = email.rindex("@")
+new_email = f"Your email is: {email[:index_email]}{company_domain} "
 print(new_email)
 print("_"*50)
