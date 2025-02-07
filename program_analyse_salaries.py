@@ -3,7 +3,7 @@
 salaries = input("Enter more than one salary and separeat between salaries by comma please : ")
 comma = ","
 if  comma not in salaries or salaries == comma:
-    input("Please enter more than one salary and use comma to separeat between the salaries: ")
+    print("Please enter more than one salary and use comma to separeat between the salaries: ")
 else:
     #change the input to list by using split method 
      list_salariess = salaries.split(",")
