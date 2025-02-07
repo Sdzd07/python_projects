@@ -6,6 +6,7 @@ while True:
     total_nums.append(number)
     if number=="done":
         break
+    print("_"*40)
     print(sum(map(int,total_nums)))
 
 #solution by another way
@@ -15,5 +16,6 @@ while True:
     number = input("Enter the number and when you finish write done : ").upper()     
     if number=="DONE":
         break
+    print("_"*40)
     print(total_nums+int(number))
    
