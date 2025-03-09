@@ -24,7 +24,7 @@ end_time = time.time()
 #calculate taken time
 taken_time = int(end_time) - int(start_time)
 #check_the inswer of user if correctly 
-if  guess in list_word:
+if  guess == choice_word:
         if taken_time<=7:
                 word ="You won!"
         elif taken_time>7:
