@@ -15,7 +15,7 @@ while True:
   
     random_number = random.choice(lst_number)
     random_lst.append(random_number)
-    if len(random_lst)>=6 :
+    if len(random_lst)==6 :
      print("You gessed the number in 5 attempts") 
      print("_"*40)
      break    
