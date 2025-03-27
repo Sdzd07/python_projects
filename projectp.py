@@ -21,5 +21,5 @@ while True:
          else:
             break   
 
-        
+print(210/3)        
           
