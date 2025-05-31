@@ -87,5 +87,8 @@ new_desertes = {
 desertes.update(new_desertes)
 print(desertes)
 del(new_desertes)
-#print(new_desertes)
 print("_"*40)
+#other solution
+for deserte, price in new deserts.items():
+    desertes[deserte] = price
+print(desertes)
