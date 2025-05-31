@@ -12,9 +12,12 @@ pizzas = {
     "Veggie": 40, 
     "Hawiian": 90 
     }
+#make list for pizza need 
+pizzas_list = ["Pepperoni", "Chicken", "Hawiian"]
 #initiliaze for loop for print all the pizzas and price 
-print("Pepperonie Pizza cost : ", pizzas["Pepperonie Pizza"])
-print("Chicken pizza cost :" ,pizzas["Chicken Pizza"])
+for pizza in pizza_list:
+    print(f"{pizza} : {pizzas[pizzas]}")
+print("_"*40)    
 #----------------------------------------------------------
 #print the follwing drinks from the menu 
 #Drinks to print:
@@ -30,11 +33,11 @@ drinks = {
     "Orange Juice": 80,
     "Pepsi": 90 
 }
-print("Coke drinks cost :" ,drinks["Coke"])
-print("Mango Juice cost :" ,drinks["Mango Juice"])
-print("Tea cost :" ,drinks["Tea"])
-print("Coffee cost :" ,drinks["Coffee"])
-print("_"*40)
+#make list of drinks
+drinks_list = ["Coke", "Mango Juice", "Tea", "Coffee"]
+#initialize for loop 
+for drink in drinks_list:
+    print(f"{drink} : {drinks[drink]}")
 #--------------------------------------------------
 #add the follwing desertes items in the resturent menu 
 #Ice cram - 70
@@ -49,7 +52,7 @@ menu = {
     "Coke": 40, "Sprite": 30, 
     "Fanta": 25
 }
-#make dictionary to add  the items 
+#make dictionary to add new items on it
 new_items = {
     "Ice cram" :70,
     "Chocolate Cacke":100,
@@ -57,12 +60,11 @@ new_items = {
     "Brownie" : 60,
     "Donuit" : 50
 }
-#initiliaz for loop for add items in the new dect named new_menu
+#initialize for loop for add items in the dect named menu
 for item in new_items:
     menu[item] = new_items[item]
 del(new_items)
 print(menu)
-#print(new_desertes)
 print("_"*40)
 #----------------------------------------------------------
 #another solution 
@@ -81,7 +83,7 @@ new_desertes = {
     "Brownie" : 60,
     "Donuit" : 50
 }
-#add the new deictionary in the origenal dictonary(desertes)
+#add the new dictionary in the origenal dictonary(desertes)
 desertes.update(new_desertes)
 print(desertes)
 del(new_desertes)
