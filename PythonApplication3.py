@@ -10,6 +10,8 @@ menu = {
 }
 #initializ for loop to edit price of each value on the menu 
 for price in menu:
+#chek if pizza in the menu    
+    if "pizza" in menu:
     menu[price] = f"{menu[price]*1.2:.2f}"
 print(f"{menu}")
 #other solution 
@@ -24,6 +26,7 @@ menu_ = {
 }
 for item, price in menu_.items():
      menu_[item] = f"{price*1.2:.2f}"
+     if "pizza" in menu:
 print(menu_)
 #for print each item in line 
 #initiliaz for loop
@@ -41,11 +44,13 @@ drinks = {
 "Orange Juice": 30,
 "Mango Juice": 30
 }
-for drink in drinks:
+soda_drinks = ["Coke", "Sprite", "Fanta", "pepsi"]
+for drink in soda_drinks:
     print(f"{drink} cost : {drinks[drink]}")
 #other solution 
 for drink, price in drinks.items():
-    print(f"{drink} cost : {price}")
+    if drink in soda_drinks:
+        print(f"{drink} cost : {price}")
 
 
 
