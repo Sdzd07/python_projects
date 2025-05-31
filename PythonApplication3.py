@@ -24,9 +24,11 @@ menu_ = {
 "Fanta": 25,
 "Pepsi": 30
 }
+#other solution
 for item, price in menu_.items():
-     menu_[item] = f"{price*1.2:.2f}"
-     if "pizza" in menu:
+#chek if pizza in the menu 
+    if "pizza" in menu:
+    menu_[item] = f"{price*1.2:.2f}"   
 print(menu_)
 #for print each item in line 
 #initiliaz for loop
