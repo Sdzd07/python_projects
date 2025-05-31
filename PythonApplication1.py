@@ -135,6 +135,12 @@ print("Chocolate cake price :", resturent_menu["Desertes"]["Chocolate Cake"])
 #print onine rings price 
 print("Onine rings price is :", resturent_menu["Sides"]["Onine Rings"])
 print("_"*40)
+#other solution 
+items = ["Veggie", "Coke", "Chocolate Cake","Onine Rings"]
+for item in items:
+    for pizza in resturent_menu:
+        if item in resturent_menu[pizza]:
+            print(f"{item} : {resturent_menu[pizza][item]}")
 #print the follwing information:
 #Mohamed karim , Rami Ahmed (age , salary, department) 
 #Reda ghani department 
